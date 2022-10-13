@@ -1,2 +1,3 @@
 # trybe-exercicios
 Organizar exercicios do curso
+criando pastas e organizando...
