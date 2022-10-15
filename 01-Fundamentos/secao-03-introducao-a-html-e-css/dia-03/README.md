@@ -1,0 +1,1 @@
+Adicionar exercicicios do dia
