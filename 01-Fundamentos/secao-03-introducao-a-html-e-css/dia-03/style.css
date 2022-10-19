@@ -1,38 +1,55 @@
-div:hover {
-  border: 6px solid black;
+ol li {
+  background-color: yellow;
+}
 
+ol li:nth-child(even) {
+  color: green;
 }
-div:nth-of-type(1) {
-  color: blue;
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
 }
-div:nth-of-type(2) {
-  color: brown;
+
+h1, h3 {
+  color: red;
 }
-div:nth-of-type(3) {
-  color: chocolate;
+
+h1 em, h3 em {
+  font-size: 40px;
+  border: 1px solid black;
 }
-div:nth-of-type(4) {
-  color: darkgreen;
-}
-div:nth-of-type(5) {
-  color: aqua;
-}
-div:nth-of-type(1) > h3 {
-  color: blue;
-} 
-div:nth-of-type(2) > h3 {
-  color: brown;
-}
-div:nth-of-type(3) > h3 {
-  color: black;
-  height: 100px;
-}
-div:nth-of-type(4) > h3 {
+
+li {
   font-size: 20px;
 }
-div:nth-of-type(5) > h3 {
-  font-style: italic;
+
+li em {
+  font-weight: bold;
 }
-div:nth-of-type(odd) > h3 {
-  font-style: italic;
+
+#language li:not(:nth-child(n + 4)) {
+  color: blue;
+}
+
+.color_java {
+  background-color: pink;
+}
+
+#backlist li a:hover {
+  font-weight: 700;
+}
+#backlist li a[href*=StackOverFlow] {
+  color: orange;
+}
+#backlist li a[href*=W3Schools] {
+  color: green;
+}
+#backlist li a[href*="Mozilla"] {
+  color: black;
+}
+#backlist li a[href*="DevDocs"] {
+  color: yellow;
+}
+#backlist li a[href*="Trybe"] {
+  color: grenn;
 }
