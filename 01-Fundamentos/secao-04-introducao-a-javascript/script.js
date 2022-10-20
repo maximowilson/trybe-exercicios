@@ -1,7 +1,12 @@
 const a = 70
 const b =  140
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
-console.log(a % b)
+
+if(a > b) {
+    console.log(a)
+}
+else if(a == b) {
+    console.log('Números iguais')
+}
+else if(a < b) {
+    console.log(b)
+}
