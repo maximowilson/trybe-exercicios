@@ -1,13 +1,10 @@
-const a = 70
-const b =  140
-const c = 210
-
-if (a > b && a > c) {
-    console.log(a)
+let resultado = 1
+if (resultado > 0) {
+    console.log('positive')
 }
-else if (b > a && b > c) {
-    console.log(b)
+else if (resultado < 0) {
+    console.log('negative')
 }
-else if (c > a && c > b) {
-    console.log(c)
+else if (resultado == 0) {
+    console.log('zero')
 }
