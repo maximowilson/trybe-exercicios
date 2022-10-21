@@ -1,4 +1,4 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [6, 10, 34, 18, 70, 8, 100, 2, 34, 28];
 let oddNumber = 0;
 
 for (i = 0; i < numbers.length; i++) {
@@ -6,4 +6,9 @@ for (i = 0; i < numbers.length; i++) {
         oddNumber += 1;
     }
 }
-console.log(oddNumber);
+if (oddNumber < 1) {
+    console.log('Nenhum valor ímpar encontrado')
+}
+else {
+    console.log(oddNumber);
+};
