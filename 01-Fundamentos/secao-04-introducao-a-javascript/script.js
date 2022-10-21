@@ -1,23 +1,10 @@
-let example = 100
+const firstNumber = 15
+const secondNumber = 70
+const thirdNumber = 215
 
-if (example < 0 || example > 100) {
-    console.log('Erro, número inválido')
-}
-else if (example >= 90) {
-    console.log('A')
-}
-else if (example >= 80) {
-    console.log('B')
-}
-else if (example >= 70) {
-    console.log('C')
-}
-else if (example >= 60) {
-    console.log('D')
-}
-else if (example >= 50) {
-    console.log('E')
-}
-else if (example >= 40) {
-    console.log('F')
-}
+let oddAndEven = false;
+
+if (firstNumber % 2 === 0 || secondNumber % 2 === 0 || thirdNumber % 2 === 0) {
+    oddAndEven = true;
+};
+console.log(oddAndEven)
