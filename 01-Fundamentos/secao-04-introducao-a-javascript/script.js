@@ -1,20 +1,23 @@
-const firstAngle = 50
-const secondAngle = 50
-const thirdAngle = 80
+let example = 100
 
-let sumAngles = firstAngle + secondAngle + thirdAngle;
-
-let positivesAngles = firstAngle > 0 && secondAngle > 0 && thirdAngle > 0;
-
-if (positivesAngles) {
-    if (sumAngles === 180) {
-        console.log(true)
-    }
-    else {
-        console.log(false)
-    };
-
+if (example < 0 || example > 100) {
+    console.log('Erro, número inválido')
 }
-else {
-    console.log('Erro, números não correspondem à um triângulo')
+else if (example >= 90) {
+    console.log('A')
+}
+else if (example >= 80) {
+    console.log('B')
+}
+else if (example >= 70) {
+    console.log('C')
+}
+else if (example >= 60) {
+    console.log('D')
+}
+else if (example >= 50) {
+    console.log('E')
+}
+else if (example >= 40) {
+    console.log('F')
 }
