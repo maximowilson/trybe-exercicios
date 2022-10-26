@@ -1,8 +1,12 @@
-// function numeroAleatorio() {
-//     return Math.random()
+let speed = 190;
+// const speedCar = (speed) => {
+//   if (speed >= 120) {
+//     return `Você ultrapassou o limite de velocidade`;
+//   } else {
+//     return `Você está na velocidade permitida`;
 //   }
-//   console.log(numeroAleatorio());
+// };
 
-  const numeroAleatorio = () => Math.random();
+let speedCar = speed >= 120? `Você ultrapassou o limite de velocidade`: `Você está na velocidade permitida`;
 
-  console.log(numeroAleatorio());
+console.log(speedCar);
