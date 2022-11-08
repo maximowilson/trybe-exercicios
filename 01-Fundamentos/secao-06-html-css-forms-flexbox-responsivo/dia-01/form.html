@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TryberTrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho">TryberTrip</header>
+    <form>
+        <h1>Formulário de cadastro</h1>
+        <label for="input-name">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" id="intup-name" required autofocus>
+        <p></p>
+        <label for="input-email">E-mail:</label>
+        <input type="email" name="email" autocomplete="off" placeholder="Digite seu endereço de email" id="intup-email" required autofocus>
+        <p></p>
+        <label for="option1">Option One</label>
+        <input type="radio" name="Options" id="option1" className="radios" value="Option One" required>
+        <label for="option2">Option Two</label>
+        <input type="radio" name="Options" id="option2" className="radios" value="Option Two" required>
+        <label for="option3">Option Three</label>
+        <input type="radio" name="Options" id="option3" className="radios" value="Option Three" required>
+        <label for="option4">Oprion Four</label>
+        <input type="radio" name="Options" id="option4" className="radios" value="Option Four" required>
+        <p></p>
+        <textarea name="resposta" id="input-awnser" cols="30" rows="10">Insira sua resposta</textarea>
+        <p></p>
+        <label for="date">Data:</label>
+        <input type="date" name="date" id="input-date">
+        <p></p>
+        <label for="terms1">Condordo com os termos</label>
+        <input type="checkbox" name="terms" id="acept-terms" required>
+        <p></p>
+        <label for="terms2">Também concordo com esses</label>
+        <input type="checkbox" name="terms" id="acept-too" required>
+        <p></p>
+        <button id="btn-sent" type="submit">Enviar</button>
+        <button id="btn-reset" type="reset">Apagar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
