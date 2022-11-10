@@ -1,8 +1,2 @@
-let car = {
-    model: 'A3 Sedan',
-    manufacturer: 'Audi',
-    year: 2020
-  };
-  for (let key in car) {
-    console.log(key + ': ' + car[key])
-  }
+const conta = (num1, num2, num3) => num1 * num2 - num3;
+console.log(conta(7, 14, 7));
