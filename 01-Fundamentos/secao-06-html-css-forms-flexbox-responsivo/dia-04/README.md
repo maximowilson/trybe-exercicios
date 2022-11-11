@@ -1,0 +1,1 @@
+Inicia exercícios do dia 6.1
