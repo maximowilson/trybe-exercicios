@@ -1,17 +1,10 @@
-const user = {
-    name: 'Maria',
-    age: 21,
-    nationality: 'Brazilian',
-};
-  
-const jobInfos = {
-    profession: 'Software engineer',
-    squad: 'Rocket Landing Logic',
-    squadInitials: 'RLL',
-};
+const rectangleArea = (width, height) => width * height;
 
-const allInformation = {...user, ...jobInfos};
+const rectangle1 = [1, 2];
+const rectangle2 = [3, 5];
+const rectangle3 = [6, 9];
+const rectangles = [rectangle1, rectangle2, rectangle3];
 
-const {name, age, nationality,profession, squad, squadInitials} = allInformation;
-
-console.log(`'Hi, my name is ${name}, I'm ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}'`);
+rectangles.forEach((rectangle) => {
+  console.log(rectangleArea(...rectangle)); // Altere o parâmetro recebido por rectangleArea()
+});
